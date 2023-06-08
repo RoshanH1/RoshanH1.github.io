@@ -18,28 +18,32 @@ h1 {
 }
 
 .content1 {
-    border: 10px solid black;
+    border: 5px solid black;
     border-radius: 30px;
     background-color: rgb(209, 209, 243);
     grid-column: 2/4;
     grid-row: 2/4;
+   
+  width: 300px;
 }
 
 .content2 {
-    border: 10px solid black;
+    border: 5px solid black;
     border-radius: 30px;
     background-color: rgb(209, 209, 243);
     grid-column: 4/6;
     grid-row: 2/4;
+    width: 300px;
 }
 
 .content3 {
     height: 255px;
-    border: 10px solid black;
+    border: 5px solid black;
     border-radius: 30px;
     background-color: rgb(209, 209, 243);
     grid-column: 6/8;
     grid-row: 2/4;
+   width: 300px;
 }
 
 .footer {
