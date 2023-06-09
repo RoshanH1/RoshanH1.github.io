@@ -41,51 +41,9 @@ body {
 
 }
 
-
-
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(75, 75, 250, 0.3);
-    border-radius: 3px;
-}
-
-.center h1 {
-    text-align: center;
-    color: white;
-    font-family: 'Source Code Pro', monospace;
-    text-transform: uppercase;
-}
-
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(9, 1fr);
-}
-
-.navbar {
-    grid-row: 1/2;
-    grid-column: 1/10;
-}
-
-.header {
-    grid-row: 2/3;
-    grid-column: 1/10;
-}
-
 .img {
-    grid-row: 3/9;
-    grid-column: 1/5;
     height: 70%;
     width: 80%;
-    margin-left: 30px;
 }
 
 .main {
@@ -102,16 +60,7 @@ body {
     border-left: 10px solid whitesmoke;
     height: 500px;
 }
-
-.footer {
-    grid-row: 9/10;
-    grid-column: 1/10;
-}
-
-.middle {
-    text-align: center;
-}
-
+    
 img {
     height: 500px;
     width: 800px;
