@@ -5,12 +5,7 @@ h1 {
     text-align: center;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 10%;
-}
+
 
 .header {
     grid-column: 1/10;
@@ -21,9 +16,6 @@ h1 {
     border: 5px solid black;
     border-radius: 30px;
     background-color: rgb(209, 209, 243);
-    grid-column: 2/4;
-    grid-row: 2/4;
-   
   width: 300px;
 }
 
@@ -31,8 +23,6 @@ h1 {
     border: 5px solid black;
     border-radius: 30px;
     background-color: rgb(209, 209, 243);
-    grid-column: 4/6;
-    grid-row: 2/4;
     width: 300px;
 }
 
@@ -41,13 +31,5 @@ h1 {
     border: 5px solid black;
     border-radius: 30px;
     background-color: rgb(209, 209, 243);
-    grid-column: 6/8;
-    grid-row: 2/4;
    width: 300px;
-}
-
-.footer {
-    grid-column: 1/10;
-    grid-row: 4/6;
-}
-    
+} 
