@@ -72,10 +72,6 @@ to {background-position: -100px 0px;background-size:2750px;}
   font-family: 'Source Code Pro', monospace;
   text-transform:uppercase;
 }   
-.img {
-    height: 70%;
-    width: 80%;
-}
 
 .main {
     grid-row: 3/9;
@@ -92,9 +88,9 @@ to {background-position: -100px 0px;background-size:2750px;}
     height: 500px;
 }
     
-img {
-    height: 500px;
-    width: 800px;
+.img-fluid{
+    height: 600px;
+    width: 500px;
 }
 
 
