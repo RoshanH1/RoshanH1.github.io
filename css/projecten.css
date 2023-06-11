@@ -53,3 +53,10 @@ to {background-position: -100px 0px;background-size:2750px;}
 .img-fluid{
   height: 300px;
 }
+a{
+  color: black;
+text-decoration: none;
+}
+a:hover{
+  color: black;
+}

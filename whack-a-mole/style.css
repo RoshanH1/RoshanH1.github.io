@@ -1,0 +1,79 @@
+body{
+    background-color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .tile{
+      background-color: darkgoldenrod;
+      cursor: pointer;
+     border-radius: 50px;
+  }
+  
+  .tile:hover{
+    background-color: white;
+  }
+  
+  .active{
+       background-color: white; 
+      background-image: url("/whack-a-mole/img/mole.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+  
+  .tile-wrapper{
+  display: grid;
+  grid-area: main;
+  gap: 10px;
+  grid-template-columns: repeat(5, 120px);
+  grid-template-rows: repeat(5, 120px);  
+  border-radius: 90px;
+  }
+  
+  .score{
+   color: white;
+  }
+  
+  h1{
+    color: white;
+  }
+  
+  body{
+    background-color: black;
+    background-image: url("/whack-a-mole/img/achtergr.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  img{
+    height: 10px;
+    width: 10px;
+  }
+  
+  .wrappper{
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd hd hd hd hd"
+    ". . . . score score score . . . ."
+    ". . . . bp bp bp bp . . . ."
+    ". . . . main main main main . . . .";
+  }
+  
+  .header{
+    text-align: center;
+    grid-area: hd;
+  }
+  
+  .score{
+    grid-area: score;
+  }
+  
+  .button-panel{
+    grid-area: bp;
+  }
+  
+  img{
+   display: flex;
+   justify-content: left;
+    height: 150px;
+    width: 150px;
+  }

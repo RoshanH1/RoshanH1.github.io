@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    --orange: #34b386;
+    --blue: #123456;
+    --winning-blocks: #2d414b;
+}
+
+
+
+body {
+    color: var(--orange);
+    font-family: fantasy cursive;
+}
+
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
+#gameboard {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin: auto;   
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--orange);
+    font-size: 120px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+
+
+
+.box:nth-child(3n) {
+    border-right: none;
+}
+
+
+
+.box:nth-child(6) ~ .box {
+    border-bottom: none;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--orange);
+    color: #333;
+    border-color: var(--orange);
+    font-size: 18px;
+    transition: 200ms transform;
+    font-weight: 600;
+    text-align: right;
+}
+
+
+
+#scoreboard{
+    text-align: left;
+}
+
+
+
+.player-X {
+    text-align: left;
+}
+
+
+
+.player-O {
+    text-align: left;
+}
+
+.div1{
+    text-align: center;
+}
+
+#restartBtn {
+    margin-top: 20px;
+    margin-left: 710px;
+    font-size: 20px;
+}
+
+.playerText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.message{
+    font-size: 50px;
+    margin-left: 640px;
+}
+
+.player-x-points{
+    margin-right: 3000px;
+}
+
+.player-o-points{
+    margin-right: 3000px;
+}
