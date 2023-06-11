@@ -67,14 +67,14 @@ h1 {
 .content1 {
     border: 5px solid black;
     border-radius: 30px;
-    background-color: rgb(209, 209, 243);
+    background-color: lightblue;
   width: 300px;
 }
 
 .content2 {
     border: 5px solid black;
     border-radius: 30px;
-    background-color: rgb(209, 209, 243);
+    background-color: lightblue;
     width: 300px;
 }
 
@@ -82,6 +82,6 @@ h1 {
     height: 255px;
     border: 5px solid black;
     border-radius: 30px;
-    background-color: rgb(209, 209, 243);
+   background-color: lightblue;
    width: 300px;
 } 
