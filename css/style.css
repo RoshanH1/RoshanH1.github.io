@@ -102,8 +102,9 @@ to {background-position: -100px 0px;background-size:2750px;}
     border-radius: 50px;
     border: 3px solid black;
     padding: 10px;
+    transition-duration: 500ms;
 }
 .card:hover{
     background-color: orange;
+    transition-duration: 550ms;
 }
-

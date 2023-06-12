@@ -6,6 +6,22 @@ a:hover{
     color: black;
 }
 
+svg{
+  cursor: pointer;
+}
+
+.navCard{
+  background-color: lightblue;
+  border-radius: 50px;
+  border: 3px solid black;
+  padding: 5px;
+  transition-duration: 500ms;
+}
+.navCard:hover{
+  background-color: orange;
+  transition-duration: 550ms;
+}
+
 
   @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
 

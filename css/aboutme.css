@@ -93,6 +93,17 @@ to {background-position: -100px 0px;background-size:2750px;}
     width: 400px;
 }
 
+.navCard{
+  background-color: lightblue;
+  border-radius: 50px;
+  border: 3px solid black;
+  padding: 5px;
+  transition-duration: 500ms;
+}
+.navCard:hover{
+  background-color: orange;
+  transition-duration: 550ms;
+}
 
   
   
