@@ -27,7 +27,16 @@ h1 {
 }
 
 
-
+.back{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: black;;
+    font-size: 18px;
+    transition: 200ms transform;
+    font-weight: 600;
+    text-align: right;
+}
 
 
 

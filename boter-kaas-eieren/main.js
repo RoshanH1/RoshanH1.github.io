@@ -12,6 +12,11 @@ const divBoxes = document.querySelectorAll(".box");
   //dit geeft de class box op uit html
 const restartBtn = document.querySelector("#restartBtn");
 //dit geeft de id restartBtn op uit html
+const resetPoints = document.querySelector(".resetPuntenBtn");
+resetPoints.addEventListener("click", () => {
+  window.location.reload();
+})
+//deze code zorgt ervoor dat als je erop klikt dat alle punten naar 0 gaan
 restartBtn.addEventListener("click", function () {
   for (let i = 0; i < divBoxes.length; i++) {
     const div = divBoxes[i];
