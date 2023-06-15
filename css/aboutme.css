@@ -95,7 +95,7 @@ to {background-position: -100px 0px;background-size:2750px;}
 
 .navCard{
   background-color: lightblue;
-  border-radius: 50px;
+
   border: 3px solid black;
   padding: 5px;
   transition-duration: 500ms;
