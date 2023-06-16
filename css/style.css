@@ -105,5 +105,5 @@ to {background-position: -100px 0px;background-size:2750px;}
 }
 .card:hover{
     background-color: orange;
-    transition-duration: 550ms;
+    transition-duration: 1s;
 }
